@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+    <title>Anime Details</title>
+</head>
+<body class="exempt">
+    <nav class="Nav" id="deet">
+        <div class="box search round" onclick="back()">
+            <i class="fa fa-arrow-left"></i>
+        </div>
+    </nav>
+
+    <div class="anime-details" id="animeDetails">
+        <div class="anime-image-container">
+            <img src="placeholder.jpg" alt="Anime Image">
+        </div>
+        <div class="detail-text">
+        <h2 id="title">Anime Title</h2> <br>
+        <p id="episodes">Episodes: N/A</p> <br>
+        <p id="synopsis">Anime synopsis will go here...</p>
+        </div>
+    </div>
+
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script> <!-- Link to your JavaScript file for the details page -->
+</body>
+</html>
