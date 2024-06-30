@@ -113,7 +113,13 @@ nav {
 }
 
 #deet {
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#deet2
+{
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -368,7 +374,7 @@ main {
 }
 
 .search-container {
-  width: 90%;
+  width: 70%;
   height: 70%;
   background-color: #040406;
   display: flex;
@@ -391,7 +397,6 @@ main {
 .search-container input:focus-within {
   background-color: #232323;
   border: 1px solid #3b3a3a;
-  height: 100%;
   color: #ffffff;
   caret-color: #ffffff;
 }

@@ -17,18 +17,21 @@
   <body id="ser">
     <nav class="Nav" id="deet">
       <div class="box search round" onclick="back()">
-        <a href="index2.html"><i class="fa fa-arrow-left"></i></a>
+        <a href="index.html"><i class="fa fa-arrow-left"></i></a>
       </div>
       <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search Anime" onkeydown="searchOnEnter(event)" />
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search Anime"
+          onkeydown="searchOnEnter(event)"
+        />
       </div>
     </nav>
 
+    <!-- Anime List Container -->
+    <ul id="animelist" class="searcherr"></ul>
 
-  
-          <!-- Anime List Container -->
-          <ul id="animelist" class="searcherr"></ul>
-          
-    <script src="search.js"> </script>
+    <script src="search.js"></script>
   </body>
 </html>
